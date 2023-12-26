@@ -247,6 +247,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	.menu-1 {
 		@media screen and (max-width: $screen-sm ) {
 			display: none;
+			
 		}
 	}
 	ul {
@@ -505,12 +506,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter,
 #fh5co-course,
 #fh5co-register,
-#fh5co-pricing,
+#fh5co-wsparcie,
 #fh5co-testimonial,
-#fh5co-blog,
-#fh5co-about,
+#fh5co-O mnie,
+#fh5co-leczenie,
 #fh5co-staff,
-#fh5co-contact,
+#fh5co-kontakt,
 #fh5co-footer{
 	padding: 7em 0;
 	clear: both;
@@ -691,7 +692,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-contact-info {
+.fh5co-kontakt-info {
 	ul {
 		padding: 0;
 		margin: 0;
@@ -881,18 +882,18 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-//PRICING
+//wsparcie
 .wrap-price{
 	padding: 2em 4em;
 }
-.pricing__feature-list{
+.wsparcie__feature-list{
 	width: 100%;
 	float: left;
 	li{
 		margin-bottom: 10px;
 	}
 }
-.pricing__item{
+.wsparcie__item{
 	width: 100%;
 	float: left;
 	clear: both;
@@ -901,7 +902,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-// BLOG
+// O mnie
 .fh5co-event{
 	position: relative;
 	padding-left: 120px;
@@ -937,14 +938,14 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 
 }
-.fh5co-blog{
+.fh5co-O mnie{
 	margin-bottom: 30px;
 	width: 100%;
 	float: left;
 	@media screen and (max-width: $screen-sm) {
 		width: 100%;
 	}
-	.blog-img-holder{
+	.O mnie-img-holder{
 		display: block;
 		background-size: cover;
 		background-position: top center;
@@ -952,7 +953,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		position: relative;
 		height: 270px;
 	}
-	.blog-text {
+	.O mnie-text {
 		position: relative;
 		background: rgba($brand-black,.03);
 		width: 100%;
@@ -986,7 +987,7 @@ h1, h2, h3, h4, h5, h6, figure {
 				color: rgba($brand-black,1);
 			}
 		}
-		.btn-blog{
+		.btn-O mnie{
 			background: transparent;
 			border: 2px solid rgba($brand-black,.8);
 			color: rgba($brand-black,.8);

@@ -401,12 +401,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter,
 #fh5co-course,
 #fh5co-register,
-#fh5co-pricing,
+#fh5co-wsparcie,
 #fh5co-testimonial,
-#fh5co-blog,
-#fh5co-about,
+#fh5co-O mnie,
+#fh5co-leczenie,
 #fh5co-staff,
-#fh5co-contact,
+#fh5co-kontakt,
 #fh5co-footer {
   padding: 7em 0;
   clear: both;
@@ -416,12 +416,12 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter,
   #fh5co-course,
   #fh5co-register,
-  #fh5co-pricing,
+  #fh5co-wsparcie,
   #fh5co-testimonial,
-  #fh5co-blog,
-  #fh5co-about,
+  #fh5co-O mnie,
+  #fh5co-leczenie,
   #fh5co-staff,
-  #fh5co-contact,
+  #fh5co-kontakt,
   #fh5co-footer {
     padding: 3em 0;
   }
@@ -621,18 +621,18 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 
-.fh5co-contact-info ul {
+.fh5co-kontakt-info ul {
   padding: 0;
   margin: 0;
 }
-.fh5co-contact-info ul li {
+.fh5co-kontakt-info ul li {
   padding: 0 0 0 40px;
   margin: 0 0 30px 0;
   list-style: none;
   position: relative;
   color: rgba(0, 0, 0, 0.8);
 }
-.fh5co-contact-info ul li:before {
+.fh5co-kontakt-info ul li:before {
   color: rgba(0, 0, 0, 0.8);
   position: absolute;
   left: 0;
@@ -648,23 +648,23 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.fh5co-contact-info ul li.address:before {
+.fh5co-kontakt-info ul li.address:before {
   font-size: 30px;
   content: "\e9dc";
 }
-.fh5co-contact-info ul li.phone:before {
+.fh5co-kontakt-info ul li.phone:before {
   font-size: 23px;
   content: "\ea3b";
 }
-.fh5co-contact-info ul li.email:before {
+.fh5co-kontakt-info ul li.email:before {
   font-size: 23px;
   content: "\e91e";
 }
-.fh5co-contact-info ul li.url:before {
+.fh5co-kontakt-info ul li.url:before {
   font-size: 23px;
   content: "\e9df";
 }
-.fh5co-contact-info ul li a {
+.fh5co-kontakt-info ul li a {
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -811,21 +811,21 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 2em 4em;
 }
 
-.pricing__feature-list {
+.wsparcie__feature-list {
   width: 100%;
   float: left;
 }
-.pricing__feature-list li {
+.wsparcie__feature-list li {
   margin-bottom: 10px;
 }
 
-.pricing__item {
+.wsparcie__item {
   width: 100%;
   float: left;
   clear: both;
 }
 @media screen and (max-width: 768px) {
-  .pricing__item {
+  .wsparcie__item {
     margin-bottom: 30px;
   }
 }
@@ -868,17 +868,17 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 }
 
-.fh5co-blog {
+.fh5co-O mnie {
   margin-bottom: 30px;
   width: 100%;
   float: left;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog {
+  .fh5co-O mnie {
     width: 100%;
   }
 }
-.fh5co-blog .blog-img-holder {
+.fh5co-O mnie .O mnie-img-holder {
   display: block;
   background-size: cover;
   background-position: top center;
@@ -886,14 +886,14 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   height: 270px;
 }
-.fh5co-blog .blog-text {
+.fh5co-O mnie .O mnie-text {
   position: relative;
   background: rgba(0, 0, 0, 0.03);
   width: 100%;
   padding: 30px;
   float: left;
 }
-.fh5co-blog .blog-text span {
+.fh5co-O mnie .O mnie-text span {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -901,24 +901,24 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   margin-bottom: 20px;
 }
-.fh5co-blog .blog-text span.comment {
+.fh5co-O mnie .O mnie-text span.comment {
   float: right;
 }
-.fh5co-blog .blog-text span.comment a {
+.fh5co-O mnie .O mnie-text span.comment a {
   color: rgba(0, 0, 0, 0.3);
 }
-.fh5co-blog .blog-text span.comment a i {
+.fh5co-O mnie .O mnie-text span.comment a i {
   padding-left: 7px;
 }
-.fh5co-blog .blog-text h3 {
+.fh5co-O mnie .O mnie-text h3 {
   font-size: 20px;
   margin-bottom: 20px;
   line-height: 1.5;
 }
-.fh5co-blog .blog-text h3 a {
+.fh5co-O mnie .O mnie-text h3 a {
   color: black;
 }
-.fh5co-blog .blog-text .btn-blog {
+.fh5co-O mnie .O mnie-text .btn-O mnie {
   background: transparent;
   border: 2px solid rgba(0, 0, 0, 0.8);
   color: rgba(0, 0, 0, 0.8);
@@ -927,7 +927,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 0;
   border-radius: 0;
 }
-.fh5co-blog .blog-text .btn-blog:hover {
+.fh5co-O mnie .O mnie-text .btn-O mnie:hover {
   color: #fff !important;
 }
 

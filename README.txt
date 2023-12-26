@@ -40,7 +40,7 @@ animate.css
 http://daneden.me/animate
 
 jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+https://github.com/imakewebthings/waypoints/O mnie/master/licenses.txt
 
 Stellar Parallax
 http://markdalgleish.com/projects/stellar.js/
