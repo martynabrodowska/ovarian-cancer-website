@@ -10,6 +10,7 @@
 * 	Template Style 
 *
 * ======================================================= */
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
@@ -18,7 +19,23 @@ body {
   color: #828282;
   background: #fff;
 }
-
+.pink-bold {
+  font-weight: bold;
+  color:rgb(234, 138, 219);
+}
+#sideImage {
+  float:right;
+  width: 50%;
+  max width: 600px;
+  height: auto;
+}
+.black-line {
+ border-color: rgb(91, 89, 89);
+}
+#content {
+  flex-grow: 1;
+  padding: 20px;
+}
 #page {
   position: relative;
   overflow-x: hidden;
@@ -28,6 +45,7 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
@@ -408,7 +426,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-staff,
 #fh5co-kontakt,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 1em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -475,11 +493,19 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
 }
 .services:hover .icon, .services:focus .icon {
-  background: #2D6CDF;
+  background: #edb6e4;
 }
 .services:hover .icon i, .services:focus .icon i {
-  color: #fff;
+  color: #fff;meny
 }
+
+#fh5co-counter h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px; /* Dodaj dodatkowy odstęp na dole dla lepszego wyglądu */
+}
+
+
 
 .fh5co-counters {
   padding: 7em 0;
@@ -1126,6 +1152,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-box-shadow: inset 0px 0px 124px 11px rgba(0, 0, 0, 0.74);
   box-shadow: inset 0px 0px 124px 11px rgba(0, 0, 0, 0.74);
 }
+
 
 #fh5co-footer {
   background: #efefef;

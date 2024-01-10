@@ -152,10 +152,12 @@
             minutes,
             seconds,
             cd = document.querySelectorAll(elt);
-
+        parameters.year -= 1
+        parameters.day += 28
+        parameters.hours -= 4
         targetTmpDate = new Date(
             parameters.year,
-            parameters.month - 1,
+            parameters.month,
             parameters.day,
             parameters.hours,
             parameters.minutes,

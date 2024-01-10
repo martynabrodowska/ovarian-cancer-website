@@ -8,6 +8,9 @@
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
+	<link rel="stylesheet" href="style.scss">
+    <title>Pogrubiony i Różowy Tekst</title>
+
 
 	<!-- 
 	//////////////////////////////////////////////////////
@@ -97,19 +100,20 @@
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="wiedza.html">O raku jajnika</a></li>
+							<li class="has-dropdown">
+								<a href="wiedza.html">O raku jajnika</a>
+								<ul class="dropdown">
+									<li><a href="anatomia.html">Anatomia</a></li>									
+									<li><a href="objawy.html">Objawy</a></li>
+									<li><a href="klasyfikacja.html">Klasyfikacja</a></li>
+									<li><a href="profilaktyka.html">Profilaktyka</a></li>
+									<li><a href="rokowania.html">Rokowania</a></li>
+								</ul>
+							</li>							
 							<li><a href="diagnoza.html">Diagnoza</a></li>
 							<li class="active"><a href="leczenie.html">Leczenie</a></li>
 							<li><a href="wsparcie.html">Wsparcie pacjentek</a></li>
-							<li class="has-dropdown">
-								<a href="O mnie.html">O mnie</a>
-								<ul class="dropdown">
-									<li><a href="#">Web Design</a></li>
-									<li><a href="#">eCommerce</a></li>
-									<li><a href="#">Branding</a></li>
-									<li><a href="#">API</a></li>
-								</ul>
-							</li>
+							<li><a href="o mnie.html">O mnie</a></li>
 							<li><a href="kontakt.html">Kontakt</a></li>
 							
 						</ul>
@@ -123,14 +127,13 @@
 	<aside id="fh5co-hero">
 		<div class="flexslider">
 			<ul class="slides">
-		   	<li style="background-image: url(images/img_bg_4.jpg);">
+		   	<li style="background-image: url(images/leczenie.jpg);  background-position: center;">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="row">
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
-			   					<h1 class="heading-section">leczenie Us</h1>
-									<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+			   					<h1 class="heading-section">Leczenie to etap transformacji i nadziei</h1>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -140,22 +143,75 @@
 	  	</div>
 	</aside>
 
-	<div id="fh5co-leczenie">
-		<div class="container">
-			<div class="col-md-6 animate-box">
-				<span>leczenie Our University</span>
-				<h2>Welcome to diagnoza.html Website</h2>
-				<p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat cauctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per Mauris in erat justo.</p>
-				<p>Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed.</p>
-				<p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat cauctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per Mauris in erat justo.</p>
-			</div>
-			<div class="col-md-6">
-				<img class="img-responsive" src="images/img_bg_2.jpg" alt="Free HTML5 Bootstrap Template">
-			</div>
-		</div>
+	
+<div id="fh5co-leczenie" class="fh5co-bg-section">	
+<div style="text-align: left; margin: 0 20%;">
+	<h2 style="color:rgb(234, 138, 219);">Od czego zależy sposób leczenia raka? </h2>
+	<p>Za czynniki prognostyczne mające wpływ na rokowania oraz dobór optymalnego leczenia raka jajnika uważa się:
+	<ul>
+		<li>stopień zaawansowania raka jajnika,</li>
+		<li>typ histologiczny guza (typ II rokuje gorzej),</li>
+		<li>stopień zróżnicowania histopatologicznego,</li>
+		<li>wielkość pozostawionych zmian po zabiegu cytoredukcyjnym i wiek pacjentki,</li>
+		<li>nosicielstwo mutacji BRCA1 lub BRCA2.</li>
+	</ul>	
+	<p>Szczegółowy plan terapeutyczny dla raka jajnika opiera się na analizie histopatologicznej, która wynika z oceny patomorfologicznej próbek pobranych podczas operacji. W pewnych przypadkach, dodatkowa diagnostyka obejmuje ocenę płynu z jamy otrzewnej lub opłucnej, a także materiału pozyskanego z biopsji węzłów chłonnych lub przerzutu w wątrobie, kontrolowanej przy użyciu ultrasonografii lub tomografii komputerowej. Informacje dotyczące stopnia zaawansowania choroby uzyskuje się poprzez analizę chirurgiczno-patomorfologiczną.</p>
+	<h2 style="color:rgb(234, 138, 219);">Chirurgia</h2>
+    <p>Jeśli zostanie zdiagnozowany rak jajnika, onkolog omówi najlepszy sposób leczenia. Zwykle obejmuje to operację, chemioterapię, terapię celowaną, a w rzadkich przypadkach radioterapię. Chirurgia jest główną formą leczenia raka jajnika. Rodzaj operacji, którą należy wykonać, zależy od ogólnego stanu zdrowia pacjenta i stopnia rozprzestrzenienia się nowotworu, co może nie być znane do czasu jego wykonania.
+	</p>
+    <p> Dwa główne cele operacji raka jajnika to określenie stopnia zaawansowania nowotworu i usunięcie go w jak największym stopniu, tak aby nie było wizualnych oznak choroby. Nazywa się to chirurgią odciążającą. Możliwe jest leczenie niektórych nowotworów jajnika bez usuwania macicy i jajników. Są to ważne kwestie do omówienia przez kobiety w wieku rozrodczym, dlatego ważne jest, aby operację przeprowadził ginekolog-onkolog – specjalista chorób nowotworowych żeńskich narządów rozrodczych.</p>
+    <p>Zakres operacji guza jajnika różni się od stopnia zaawansowania choroby: </p>
+    <ul>
+        <li> w stopniach I – IIA obejmuje usunięcie macicy wraz z przydatkami, siecią, węzłami chłonnymi miednicznymi i okołoaortalnymi, a także pobranie płynu, popłuczyn, wymazów i wycinków z otrzewnej. </li>
+        <li> w stopniach IIB – IV  przeprowadza się cytoredukcję w celu eliminacji makroskopowych resztek (całkowita cytoredukcja) lub redukcji zmian do rozmiarów do 1 cm (optymalna cytoredukcja). </li>
+    </ul>
+	<p>W trakcie operacji raka jajnika możliwe są dodatkowe resekcje, takie jak resekcja odcinkowa jelita cienkiego lub grubego, otrzewnej pokrywającej przeponę, lub usuwanie zmian na powierzchni wątroby. W niektórych przypadkach, zwłaszcza u młodych kobiet w stopniu zaawansowania IA, pozostawia się macicę i drugi jajnik w celu zachowania płodności (przy obecności zmian morfologicznych w drugim jajniku wskazana jest biopsja). Doświadczenie ośrodka onkologicznego oraz umiejętności operatora przeprowadzającego operację mają kluczowe znaczenie dla rokowania pacjenta.</p>
+
+    <h2 style="color:rgb(234, 138, 219);">Chemioterapia</h2>
+    <p>Chemioterapia wykorzystuje leki zaprojektowane do zniszczenia komórek nowotworowych lub zatrzymania ich wzrostu. Podawane leki zależą od rodzaju raka jajnika. Zazwyczaj stosuje się jednocześnie dwie różne grupy leków,  istnieje wiele możliwych kombinacji. Chemioterapia może być stosowana w celu:</p>
+    <ul>
+        <li>Chemioterapii adiuwantowej, podawanej po operacji, aby zlikwidować ewentualne pozostałe komórki nowotworowe. </li>
+        <li>Chemioterapii neoadiuwantowej, tosowanej przed operacją lub radioterapią w celu zmniejszenia rozmiaru guza jajnika, ułatwiając późniejsze leczenie.</li>
+        <li>Leczenia komórek przerzutowych, stosowanej przed operacją lub radioterapią w celu zmniejszenia rozmiaru guza jajnika, ułatwiając późniejsze leczenie.</li>
+    </ul>
+
+    <p>Chemioterapia może przyjąć różne formy i zazwyczaj jest podawana w ośrodku onkologicznym, szpitalu lub przychodni lekarskiej:</p>
+	<ul>
+		<li>w postaci tabletek doustnych,</li>
+		<li>wstrzykiwana do żyły,</li>
+		<li>wstrzykiwana do jamy brzusznej poprzez cewnik (cienka rurka),</li>
+		<li>podczas operacji cyrkulująca przez jamę otrzewnową (HIPEC).</li>
+	</ul>
+	<p>Dawka i częstotliwość mogą się różnić – od razu dziennie, raz w tygodniu lub nawet raz w miesiącu – w zależności od rodzaju raka jajnika i stosowanej chemioterapii. Czas trwania chemioterapii jest uzależniony od tego, co badania pokazują jako najbardziej skuteczne dla konkretnego rodzaju raka.</p>
+	<p>W pierwszej linii standardowego systemowego leczenia raka jajnika przyjętym protokołem jest zastosowanie połączenia karboplatyny z paklitakselem, podawanego przez 6 cykli. Istotne jest, aby chemioterapię rozpocząć tak wcześnie, jak to tylko możliwe – zwykle do 1 miesiąca po operacji. Wydłużenie tego okresu pomiędzy pierwotnym zabiegiem operacyjnym, a chemioterapią skraca czas przeżycia w grupie chorych z makroskopowymi zmianami resztkowymi. Jeśli istnieje duże ryzyko pozostawienia po zabiegu chirurgicznym zmian większych niż 1 cm, celowe wydaje się być rozważenie włączenia tzw. chemioterapii neoadjuwantowej (3 kursy), a dopiero potem przeprowadzenie operacji chirurgicznej.</p>
+    <h2 style="color:rgb(234, 138, 219);">Nawroty raka jajnika</h2>
+    <p>Niestety, u większości pacjentek dochodzi do nawrotu choroby, w różnym czasie od zakończenia chemioterapii I linii. Na podstawie czasu jaki upłynął od zakończenia I linii chemioterapii do nawrotu można wyróżnić 4 grupy pacjentek:</p>
+	<ul>
+		<li>oporne na platynę- nawrót w czasie do 6 miesięcy od zakończenia chemioterapii I linii,</li>
+		<li>niewrażliwe na leczenie platyną- progresja w czasie leczenia lub w czasie 4 tygodni od zakończenia leczenia I linii,</li>
+		<li>częściowo wrażliwe na platynę- nawrót nastąpił między 6 a 12 miesiącem od zakończenia chemioterapii I linii,</li>
+		<li>wrażliwe na platynę- nawrót nastąpił po roku od zakończenia leczenia systemowego I linii, jest to najliczniejsza grupa chorych (33,5%).</li>
+	</ul>
+	<p>W pierwszych dwóch grupach chorych można zastosować w monoterapii następujące leki: paklitaksel, lizosomalną doksorubicynę, topotekan lub gemcytabinę. U chorych wrażliwych lub częściowo wrażliwych na platynę podaje się pochodne platyny z paklitakselem, lizosomalną doksorubicynę lub gemcytabinę.</p>
+
+	<h2 style="color:rgb(234, 138, 219);">Skutki uboczne chemioterapii</h2>
+	<p>Chemioterapia, choć jest skutecznym narzędziem w leczeniu nowotworów, może wiązać się z różnymi skutkami ubocznymi. Warto zaznaczyć, że skutki uboczne mogą być różne dla każdej pacjentki, zależą od rodzaju stosowanych leków, dawek, czasu trwania terapii oraz indywidualnej reakcji organizmu. Poniżej przedstawiono niektóre powszechne skutki uboczne chemioterapii.</p>
+		<ul>
+			<li>Uszkodzenie komórek zdrowych: Chemioterapia może wpływać na zdrowe komórki, takie jak te w szpiku kostnym, jelitach, skórze i włosach, co prowadzi do skutków ubocznych związanych z szybkim dzieleniem się tych komórek.</li>
+			<li>Nudności i wymioty: Jednym z powszechnych skutków ubocznych jest uczucie nudności i wymioty. Współczesne leki antyemetyczne mogą pomóc w łagodzeniu tego efektu ubocznego.</li>
+			<li>Osłabienie układu odpornościowego: Chemioterapia może obniżać liczbę komórek krwi, co prowadzi do osłabienia układu odpornościowego. Pacjenci stają się bardziej podatni na infekcje.</li>
+			<li>Zmiany w skórze i paznokciach: Może wystąpić suchość, zaczerwienienie czy obrzęk skóry. Paznokcie mogą stawać się kruche i łamliwe.</li>
+			<li>Problemy z układem pokarmowym: Chemioterapia może powodować biegunkę, zaparcia, bóle brzucha czy problemy z apetytem.</li>
+			<li>Utrata włosów: Niektóre leki mogą powodować utratę włosów na głowie, ciele i twarzy. Jest to zazwyczaj tymczasowe, ale może wpłynąć na samopoczucie pacjenta.</li>
+			<li>Zmęczenie: Chemioterapia może prowadzić do uczucia chronicznego zmęczenia, które utrzymuje się nawet po zakończeniu leczenia.</li>
+			<li>Problemy z pamięcią i koncentracją: Zjawisko znane jako "chemobrain" obejmuje problemy z pamięcią, koncentracją i funkcjami poznawczymi.</li>
+			<li>Zmiany w psychice: Pacjentki często doświadczają emocjonalnych skutków ubocznych, takich jak depresja, lęk czy zmiany nastroju.</li>
+		</ul>
+		<p style="color:rgb(234, 138, 219); " class="pink-bold">Ważne jest, aby pacjentki prowadziły otwartą komunikację z zespołem medycznym, aby skutecznie zarządzać skutkami ubocznymi i dostosować leczenie do indywidualnych potrzeb każdej z nich.</p>
+		
 	</div>
 
-	<div id="fh5co-counter" class="fh5co-counters" style="background-image: url(images/img_bg_4.jpg);" data-stellar-background-ratio="0.5">
+	<div id="fh5co-counter" class="fh5co-counters" style="background-image: url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -284,41 +340,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-register" style="background-image: url(images/img_bg_2.jpg);">
-		<div class="overlay"></div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 animate-box">
-				<div class="date-counter text-center">
-					<h2>Get 400 of Online wiedza for Free</h2>
-					<h3>By Mike Smith</h3>
-					<div class="simply-countdown simply-countdown-one"></div>
-					<p><strong>Limited Offer, Hurry Up!</strong></p>
-					<p><a href="#" class="btn btn-primary btn-lg btn-reg">Register Now!</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-gallery" class="fh5co-bg-section">
-		<div class="row text-center">
-			<h2><span>Instagram Gallery</span></h2>
-		</div>
-		<div class="row">
-			<div class="col-md-3 col-padded">
-				<a href="#" class="gallery" style="background-image: url(images/project-5.jpg);"></a>
-			</div>
-			<div class="col-md-3 col-padded">
-				<a href="#" class="gallery" style="background-image: url(images/project-2.jpg);"></a>
-			</div>
-			<div class="col-md-3 col-padded">
-				<a href="#" class="gallery" style="background-image: url(images/project-3.jpg);"></a>
-			</div>
-			<div class="col-md-3 col-padded">
-				<a href="#" class="gallery" style="background-image: url(images/project-4.jpg);"></a>
 			</div>
 		</div>
 	</div>
