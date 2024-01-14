@@ -26,7 +26,7 @@ body {
 #sideImage {
   float:right;
   width: 50%;
-  max width: 600px;
+  max-width: 600px;
   height: auto;
 }
 .black-line {
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #edb6e4;
 }
 .services:hover .icon i, .services:focus .icon i {
-  color: #fff;meny
+  color: #fff;
 }
 
 #fh5co-counter h2 {

@@ -115,9 +115,6 @@
      */
     simplyCountdown = function (elt, args) {
         var parameters = extend({
-                year: 2015,
-                month: 6,
-                day: 28,
                 hours: 0,
                 minutes: 0,
                 seconds: 0,
@@ -152,17 +149,12 @@
             minutes,
             seconds,
             cd = document.querySelectorAll(elt);
-        parameters.year -= 1
-        parameters.day += 28
-        parameters.hours -= 4
-        targetTmpDate = new Date(
-            parameters.year,
-            parameters.month,
-            parameters.day,
-            parameters.hours,
-            parameters.minutes,
-            parameters.seconds
-        );
+
+        targetTmpDate = new Date();
+        targetTmpDate.setHours(targetTmpDate.getHours() + 2);
+        targetTmpDate.setMinutes(targetTmpDate.getMinutes() + 50);
+        targetTmpDate.setSeconds(0);
+        targetTmpDate.setMilliseconds(0);
 
         if (parameters.enableUtc) {
             targetDate = new Date(
