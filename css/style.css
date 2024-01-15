@@ -1487,7 +1487,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: rgb(234, 138, 219);
+  background: #2D6CDF;
   color: #fff;
   border: 2px solid #2D6CDF;
 }
