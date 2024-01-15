@@ -664,7 +664,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1131,7 +1131,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.1);
 }
 #fh5co-gallery h2 span:before {
-  lett: 0;
+  letter-spacing: 0;
   margin-left: -125px;
 }
 #fh5co-gallery h2 span:after {
@@ -1284,7 +1284,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1487,7 +1487,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #2D6CDF;
+  background: rgb(234, 138, 219);
   color: #fff;
   border: 2px solid #2D6CDF;
 }
